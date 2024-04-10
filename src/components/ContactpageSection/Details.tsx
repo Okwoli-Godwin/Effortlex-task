@@ -12,7 +12,7 @@ const Details = () => {
         <div className='w-[90%] flex flex-col items-center pt-[40px]'>
             <div className='flex flex-col items-center'>
                 <h1 className='text-[30px] text-primary font-[700]'>Contact Us</h1>
-                <p className='text-[#717171] font-[600]'>Any question or remarks? Just write us a message!</p>
+                <p className='text-[#717171] font-[600] sm:text-center'>Any question or remarks? Just write us a message!</p>
             </div>
             
             <div className='w-[100%] flex bg-white rounded-[10px] p-[15px] mt-[35px] mb-[35px] justify-between flex-wrap'>
