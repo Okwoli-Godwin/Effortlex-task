@@ -4,7 +4,7 @@ import img from "@/public/scan.png"
 
 const Description = () => {
   return (
-    <div className='w-[100%] flex justify-center bg-[#f8f9fd] pb-[35px]'>
+    <div className='w-[100%] flex justify-center bg-[#f8f9fd] pb-[35px] pt-[35px]'>
         <section className='p-[25px] h-full max-lg:p-12 max-md:p-8 max-lg:mx-5 rounded-xl bg-[#566599] mb-[35px] w-[90%]'>
         
         {/* First Section */}
