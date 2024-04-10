@@ -15,8 +15,8 @@ const Details = () => {
                 <p className='text-[#717171] font-[600]'>Any question or remarks? Just write us a message!</p>
             </div>
             
-            <div className='w-[100%] flex bg-white rounded-[10px] p-[15px] mt-[35px] mb-[35px] justify-between'>
-                <div className='w-[40%] flex flex-col rounded-[10px] p-[30px] bg-primary relative'>
+            <div className='w-[100%] flex bg-white rounded-[10px] p-[15px] mt-[35px] mb-[35px] justify-between flex-wrap'>
+                <div className='w-[40%] md:w-[100%] sm:w-[100%] flex flex-col rounded-[10px] p-[30px] bg-primary relative'>
                     <div className='flex flex-col'>
                         <h2 className='text-[23px] text-white font-[700]'>Contact Information</h2>
                         <p className='text-white font-[400] text-[15px]'>Any question or remarks? Just write us a message!</p>
@@ -64,28 +64,28 @@ const Details = () => {
                     </div>
                 </div>
                 
-                <div className='w-[55%] flex flex-wrap pt-[30px] justify-between'>
-                    <div className='flex flex-col w-[45%]'>
+                <div className='w-[55%] md:w-[100%] sm:w-[100%] flex flex-wrap pt-[30px] justify-between'>
+                    <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <p className='font-[600]'>First Name</p>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none mt-[10px]'/>
                     </div>
-                    <div className='flex flex-col w-[45%]'>
+                    <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <p className='font-[600]'>Last Name</p>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none mt-[10px]'/>
                     </div>
-                    <div className='flex flex-col w-[45%]'>
+                    <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <p className='font-[600]'>Email</p>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
-                    <div className='flex flex-col w-[45%]'>
+                    <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <p className='font-[600]'>Phone Number</p>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
-                    <div className='flex flex-col w-[45%]'>
+                    <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <p className='font-[600]'>Location</p>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
-                    <div className='flex flex-col w-[45%]'>
+                    <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <p className='font-[700] text-primary'>Select Subject?</p>
                         <div className='flex items-center mt-[10px]'>
                             <div className='flex items-center'>
@@ -98,7 +98,7 @@ const Details = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-col w-[100%]'>
+                    <div className='flex flex-col w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <p className='font-[600]'>Message</p>
                         <input placeholder='Write your message' type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none mt-[10px]'/>
                     </div>
