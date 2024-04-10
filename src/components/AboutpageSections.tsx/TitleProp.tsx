@@ -8,9 +8,9 @@ interface TitleDescProps {
 
 const TitleProp: React.FC<TitleDescProps> = ({ title, description, titleColor}) => {
   return (
-    <div>
+    <div >
       <h2 className={`${titleColor} font-bold text-2xl max-md:text-xl `}>{title}</h2>
-      <p className={` md:w-[60%] pt-3 text-white`}>{description}</p>
+      <p className={` md:w-[100%] sm:w-[100%] pt-3 text-white`}>{description}</p>
     </div>
   )
 }

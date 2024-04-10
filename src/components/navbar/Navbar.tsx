@@ -19,7 +19,7 @@ const Navbar = () => {
     };
 
   return (
-    <div className='w-[100%] h-[70px] flex items-center justify-center fixed bg-white z-20'>
+    <div className='w-[100%] h-[70px] flex items-center justify-center fixed bg-white z-30'>
         <div className='w-[90%] flex items-center h-[100%] justify-between'>
             <div className='w-[60px] h-[100%] flex items-center'>
                 <Image src={shuttle} alt='/'/>
