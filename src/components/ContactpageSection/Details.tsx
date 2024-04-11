@@ -3,8 +3,8 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdEmail, MdLocationPin } from "react-icons/md";
 import { FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa";
 import Image from 'next/image';
-import img1 from "@/public/circle1.png"
-import img2 from "@/public/circle2.png"
+import img1 from "../../../public/circle1.png"
+import img2 from "../../../public/circle2.png"
 
 const Details = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import TitleProp from './TitleProp'
 import Image from 'next/image'
-import img from "@/public/chess.png"
+import img from "../../../public/chess.png"
 
 const Difference = () => {
   return (

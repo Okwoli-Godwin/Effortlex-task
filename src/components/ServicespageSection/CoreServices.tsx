@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import img from "@/public/rsd.png"
-import img2 from "@/public/ptw.png"
-import img3 from "@/public/rc.png"
+import img from "../../../public/rsd.png"
+import img2 from "../../../public/ptw.png"
+import img3 from "../../../public/rc.png"
 
 const CoreServices = () => {
   return (

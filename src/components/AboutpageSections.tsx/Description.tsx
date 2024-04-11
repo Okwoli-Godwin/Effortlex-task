@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import img from "@/public/scan.png"
+import img from "../../../public/scan.png"
 
 const Description = () => {
   return (
